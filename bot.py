@@ -113,6 +113,7 @@ async def start(update: Update, context):
         parse_mode=ParseMode.MARKDOWN_V2
     )
 
+
 async def handle_message(update: Update, context):
     try:
         data = json.loads(update.message.text)
@@ -130,7 +131,7 @@ async def handle_message(update: Update, context):
 
 
 def main():
-    bot_api_token = os.getenv("TELEGRAM_BOT_API_TOKEN")
+    bot_api_token = os.getenv("BOT_TOKEN")
 
     application = Application.builder().token(bot_api_token).build()
 
