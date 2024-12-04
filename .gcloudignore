@@ -1,0 +1,9 @@
+.gcloudignore
+.git
+.gitignore
+.idea
+.env
+.venv
+app.yaml
+LICENSE
+README.md
