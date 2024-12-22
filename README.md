@@ -44,7 +44,7 @@ A Telegram bot that helps you optimize your funds across multiple platforms on a
 ## Installation
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/yourusername/crypto-deathrow.git
+   git clone https://github.com/NazarNintendo/crypto-deathrow.git
    cd crypto-deathrow
    ```  
 2. Install dependencies:  
